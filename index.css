@@ -4,13 +4,17 @@
 body{
     margin: 0;
 }
+.heading{
+    display: flex;
+    justify-content: center;
+}
 :root{
     --cell-size : 100px;
     --content-size:calc(var(--cell-size) * .9);
 }
 .board{
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     display: grid;
     justify-content: center;
     align-content: center;
